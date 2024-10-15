@@ -12,11 +12,11 @@ function App() {
   return(
       <>
       <Navbar/>
-      <Routes>
+     
       <Route exact Component={Home} path='/' />
       <Route exact Component={About} path='/about' />
       <Route exact Component={Contact} path='/contact' />
-      </Routes>
+     
      
       <Footer/>
    
