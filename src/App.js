@@ -12,7 +12,6 @@ function App() {
   return(
       <>
       <Navbar/>
-     <Home/>
       <Route exact Component={Home} path='/' />
       <Route exact Component={About} path='/about' />
       <Route exact Component={Contact} path='/contact' />
